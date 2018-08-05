@@ -1,0 +1,40 @@
+.main {
+  padding: 70px 260px 0;
+}
+
+.main__form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 75px;
+}
+
+.main__search {
+  width: 310px;
+  padding: 0;
+  margin: 0 auto;
+  border: 0;
+  border-bottom: 1px solid #b6b6b6;
+  background-color: transparent;
+  text-align: center;
+}
+
+.main__label {
+  position: relative;
+}
+
+.main__label:not(:hover)::before {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background-image: url("../img/search.svg");
+  left: 110px;
+  top: 6px;
+}
+
+.main__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

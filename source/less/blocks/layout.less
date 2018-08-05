@@ -1,0 +1,81 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  padding-top: 5px;
+  background-color: #1e1546;
+}
+
+.layout__logo {
+  font-size: @base-font-size * 2 * @ms;
+  line-height: @base-font-size * 3 * @ms;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.layout__list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  & li {
+    margin-bottom: 10px;
+  }
+
+  & li:nth-last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.layout__item {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 0;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.layout__item--1 {
+  background-color: #ff000e;
+}
+
+.layout__item--2 {
+  background-color: #ff9900;
+}
+
+.layout__item--3 {
+  background-color: #ba00ff;
+}
+
+.layout__item--4 {
+  background-color: #00ff85;
+}
+
+.layout__user {
+  margin-top: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: #a1b9c5;
+  background-image: url("../img/zebra.png");
+  background-size: 100%;
+  cursor: pointer;
+}
+
+.layout__online-status {
+  width: 15px;
+  height: 15px;
+  margin-top: auto;
+  border-radius: 100%;
+  border: 2px solid #1e1546;
+  background-color: #ff0900;
+}
