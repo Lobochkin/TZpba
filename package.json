@@ -2,7 +2,7 @@
   "name": "Test",
   "version": "14.0.0",
   "private": true,
-  "description": "Личный проект «Пинк» от HTML Academy",
+  "description": "Тестовое задание для НПЦ БизнесАвтоматика",
   "devDependencies": {
     "autoprefixer": "8.3.x",
     "grunt": "1.0.x",

@@ -14,25 +14,50 @@
           A
         </div>
         <ul class="layout__list">
-          <li>
+          <li class="layout__el">
             <button class="layout__item layout__item--1" type="button" name="Название приложения">
             </button>
           </li>
-          <li>
+          <li class="layout__el">
             <button class="layout__item layout__item--2" type="button" name="Название приложения">
             </button>
           </li>
-          <li>
+          <li class="layout__el">
             <button class="layout__item layout__item--3" type="button" name="Название приложения">
             </button>
           </li>
-          <li>
+          <li class="layout__el">
             <button class="layout__item layout__item--4" type="button" name="Название приложения">
             </button>
           </li>
         </ul>
         <div class="layout__user">
           <span class="layout__online-status"></span>
+          <div class="layout__popup popup-user layout__popup--off">
+            <ul class="popup-user__list">
+              <li class="popup-user__item">
+                <span class="popup-user__status popup-user__status--online"></span>
+                <button class="popup-user__btn popup-user__btn--online" type="button">В сети</button>
+              </li>
+              <li class="popup-user__item">
+                <span class="popup-user__status popup-user__status--depart"></span>
+                <button class="popup-user__btn popup-user__btn--depart" type="button">Отошел</button>
+              </li>
+              <li class="popup-user__item popup-user__item--not-disturb">
+                <span class="popup-user__status popup-user__status--not-disturb"></span>
+                <button class="popup-user__btn popup-user__btn--not-disturb" type="button">Не беспокоить</button>
+              </li>
+              <li class="popup-user__item">
+                <button class="popup-user__btn" type="button">Профиль</button>
+              </li>
+              <li class="popup-user__item popup-user__item--setting">
+                <button class="popup-user__btn popup-user__btn--setting" type="button">Настройки</button>
+              </li>
+              <li class="popup-user__item popup-user__item--exit">
+                <button class="popup-user__btn" type="button">Выйти</button>
+              </li>
+            </ul>
+          </div>
         </div>
       </aside>
       <div class="wrapper">
@@ -149,5 +174,6 @@
         </main>
       </div>
     </div>
+    <script src="js/util.js"></script>
   </body>
 </html>
